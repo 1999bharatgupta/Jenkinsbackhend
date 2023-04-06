@@ -7,20 +7,20 @@ app.get("/",(req:any,res:any)=>{
         return res.status(200).send({
             users:[
                 {
+                    name:"Bharat",
+                    phone:9654989991
+                },
+                {
                     name:"Yogesh",
-                    email:"Yogesh@gmail.com"
+                    phone: 9999999999
                 },
                 {
-                    name:"Ramesh",
-                    email:"Ramesh@gmail.com"
-                },
-                {
-                    name:"Hitesh",
-                    email:"Hitesh@gmail.com"
+                    name:"Aayush",
+                    phone:8888888888
                 },
                 {
                     name:"Dinesh",
-                    email:"Dinesh@gmail.com"
+                    phone:7777777777
                 }
             ]
         })
