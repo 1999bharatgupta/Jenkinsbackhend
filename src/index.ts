@@ -7,7 +7,7 @@ app.get("/",(req:any,res:any)=>{
         return res.status(200).send({
             users:[
                 {
-                    name:"Bharat",
+                    name:"Bharat Gupta",
                     phone:9654989991
                 },
                 {
